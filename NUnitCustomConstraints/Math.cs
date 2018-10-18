@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace NUnitCustomConstraints
 {
-    public class Class1
+    public class Math
     {
+
+        public double Add(double a, double b)
+        {
+            return a + b;
+        }
     }
 }
